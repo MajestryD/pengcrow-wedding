@@ -1,0 +1,46 @@
+.OurStory{
+    border-bottom: 1px solid;
+    border-image: radial-gradient(closest-side at 50% 55%, #000 30%, transparent 50%) 80% 1;
+}
+.OurStory .ourStoryMessage{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.StoryContainer{
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.YesContainer{
+    margin-top: 50px;
+    background-image: url("./sheSaidYes.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vw;
+    width: 100%;
+    overflow: hidden;
+    align-self: center;
+}
+
+.Yes{
+    margin: -350px 0 0 -550px;
+}
+
+.Story{
+    margin: 100px 0px;
+    width: 80%;
+    align-self: center;
+}

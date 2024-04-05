@@ -1,0 +1,24 @@
+.NavLink{
+    width: 40vw;
+    /* font-family: "Parisienne", cursive; */
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.NavLink ul {
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.NavLink ul li{
+    list-style: none;
+    font-weight: 600;
+    font-size: min(1.5vw,1.25rem);
+    font-style: normal;
+}
+
+
+.NavLink ul li:hover{
+    cursor: pointer;
+}

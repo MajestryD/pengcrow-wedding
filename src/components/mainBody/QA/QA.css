@@ -1,0 +1,54 @@
+.QA .qAMessage{
+    padding-top: 100px;
+    align-items: center;
+    align-content: center;
+}
+
+.QAContainer{
+    width: min(80vw,850px);
+    direction:ltr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px auto;
+    position: relative;
+}
+
+.QAColumn{
+    display: flex;
+    flex-flow: column;
+    width: 32%;
+    color: white;
+    font-size: 20px;
+}
+
+.QAItem{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: var(--websiteColor);
+    margin: 8px 0px;
+}
+
+
+.Question{
+    margin: 30px 20px 0px 20px;
+}
+.Answer{
+    font-size: 14px;
+    margin: 0 20px 30px 20px;
+}
+
+@media (max-width:680px){
+
+    .QAContainer{
+        flex-flow: column;
+        margin: 50px auto;
+    }
+
+    .QAColumn{
+        width: 80%;
+        align-self: center;
+
+    }
+}
