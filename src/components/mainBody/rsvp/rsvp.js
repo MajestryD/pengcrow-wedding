@@ -118,7 +118,7 @@ function RSVP() {
             setDietaryRestriction(e.target.value);
         }
     }
-
+    const [finishSubmit,setFinishSubmit] = useState(false);
     const addAttendants = () => {
         const filteredAdultList = newAttendant.adultList.filter(adult => adult != null && adult !== false && adult !== "");
         const filteredChildrenList = newAttendant.childList.filter(adult => adult != null && adult !== false && adult !== "");
@@ -133,6 +133,7 @@ function RSVP() {
                 });
             setNewAttendant({ email: '', confirmation: true, diet: [], allergies: [], additional: '', childList: [], adultList: [] });
             setBadSubmit(false);
+            setFinishSubmit(true);
         } else {
             setBadSubmit(true);
         }
@@ -150,7 +151,7 @@ function RSVP() {
                 <span className='Title'> Rsvp </span>
                 <div className='KungFu'></div>
                 <p className='RSVPFYI'><strong>We're so excited to celebrate with you!</strong><br/>
-                        KINDLY RESPOND BY JUNE 30<sup>th</sup>, 2024.</p>
+                        KINDLY RESPOND BY JUNE 30<sup>th</sup>, 2024</p>
                 <div className='RSVPForm'>
                     <div className='GuestList'>
                         <label>Name (required)</label>
@@ -273,8 +274,11 @@ function RSVP() {
                         <button className="SubmitForm" onClick={addAttendants}>Submit</button>
                     </div>
 
+                    
+
 
                 </div>
+                {finishSubmit && (<div className='FinishSubmit'> <strong>Thank you for submitting your RSVP! </strong></div>)}
             </div>
         </div>
     );

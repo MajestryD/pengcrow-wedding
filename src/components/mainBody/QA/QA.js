@@ -8,7 +8,7 @@ function QA() {
 
             <div className='qAMessage'>
                 <span className='Title'> Q&A </span>
-                <p className='RSVPFYI'><strong>Some answers to your questions~</strong><br />Events are confusing and you probably have questions.</p>
+                <p className='RSVPFYI'><strong>Some answers to your questions~</strong><br />Events are confusing and you probably have questions</p>
 
                 <div className='QAContainer'>
                     <div className="QAColumn">

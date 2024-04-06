@@ -13,9 +13,9 @@ function OurStory() {
                     <div className='YesContainer'>
 
                     </div>
+                    <p className='RSVPFYI'><strong>Our first date</strong><br />You can probably guess who wrote this</p>
 
                     <div className='Story'>
-                        <p className='RSVPFYI'><strong>Our first date</strong><br />You can probably guess who wrote this.</p>
 
                         <p> Our story starts off where most young'ins start their love story...online! He was sitting on the toilet and she was sitting on the bus. He swipped right on her pretty face and she swipped right on his height. Who knew they'd match? But a match made in heaven nontheless! He does his obligatory online stalking and...finds out that they have a mutual friend that they are both really close to! He devised a sneaky plan. He was going to have her add him on Instagram where they just so happened to find out of this mutual friend. A date was made. He bikes 15km across Missisauga to take a 1 hour bus ride to reach her area! And this whole time she thought he lived across the street from the bus stop. </p><br />
 
