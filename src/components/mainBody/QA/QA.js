@@ -19,7 +19,7 @@ function QA() {
 
                         <div className='QAItem'>
                             <span className='Question'>Do we have a theme for the wedding?</span>
-                            <p className='Answer'>Nope, but kindly be in semi-formal wear. Would wouldn't wish for you to go out of your way to tailor specifically for the wedding.</p>
+                            <p className='Answer'>Nope, but kindly be in semi-formal wear. We wouldn't wish for you to go out of your way to tailor specifically for the wedding.</p>
                         </div>
 
 
